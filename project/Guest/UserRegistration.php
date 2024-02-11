@@ -25,8 +25,8 @@ function mailOTP($cusname, $cusemail)
   $mail->isSMTP();
   $mail->Host = 'smtp.gmail.com';
   $mail->SMTPAuth = true;
-  $mail->Username = 'artisanalhelp@gmail.com'; // Your gmail
-  $mail->Password = 'lzjtzxpdnkkflamj'; // Your gmail app password
+  $mail->Username = ''; // Your gmail
+  $mail->Password = ''; // Your gmail app password
   $mail->SMTPSecure = 'ssl';
   $mail->Port = 465;
 
